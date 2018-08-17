@@ -1,9 +1,9 @@
 # 2.1 新增Storage
 
-## Usage - getCookies\(\)
+## Usage - setSession\(\)
 
 ```javascript
-Storage.getSession(name, local).then(res => {
+Storage.setSession(name, val, local).then(res => {
     // todo
     console.log(res)
 }).catch(err => {
@@ -14,8 +14,9 @@ Storage.getSession(name, local).then(res => {
 
 需要参数:
 
-1.  @params =&gt; keyname 需要查询cookies的key值  
-2.  @params =&gt; local 切换LocalStorage, 默认为false 
+1.  @params =&gt; name 需要设置Session的key值  
+2.  @params =&gt; val 需要设置的Session的val值
+3.  @params =&gt; local 切换LocalStorage, 默认为false 
 
 
 
