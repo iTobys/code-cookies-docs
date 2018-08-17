@@ -1,4 +1,20 @@
 # Table of contents
 
 * [CodeCookies](README.md)
+* [1. Cookies API](cookies-api/README.md)
+  * [1.1 获取cookies](cookies-api/getcookies.md)
+  * [1.2 新增cookies](cookies-api/setcookies.md)
+  * [1.3 删除cookies](cookies-api/delcookies.md)
+* [2. Storage API](storage-api/README.md)
+  * [2.1 新增Storage](storage-api/getsession.md)
+  * [2.2 获取Storage](storage-api/setsession.md)
+  * [2.3 删除指定Storage](storage-api/delsession.md)
+  * [2.4 清除全部Storage](storage-api/cleansession.md)
+* [3. IndexedDB API](3.-indexeddb-api/README.md)
+  * [3.1 实例化数据库](3.-indexeddb-api/newdb.md)
+  * [3.2 打开数据库](3.-indexeddb-api/opendb.md)
+  * [3.3 新增字段](3.-indexeddb-api/setstore.md)
+  * [3.4 获取指定字段](3.-indexeddb-api/getstore.md)
+  * [3.5 删除指定字段](3.-indexeddb-api/removestorage.md)
+  * [3.6 更新指定字段](3.-indexeddb-api/putstore.md)
 
