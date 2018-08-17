@@ -6,9 +6,6 @@
 Storage.cleanSession(local).then(res => {
     // todo
     console.log(res)
-}).catch(err => {
-    // err
-    console.log(err)
 })
 ```
 
