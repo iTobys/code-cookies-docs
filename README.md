@@ -1,8 +1,6 @@
----
-description: 简单、轻量的web端缓存插件
----
-
 # CodeCookies
+
+#### 一个全新、轻量、功能齐全的web端缓存插件 :cat:
 
 ## 每次想使用cookies，localstorage和indexedDB都要装大量内库，文档东一个西一个?
 
@@ -15,6 +13,16 @@ code-cookies虽然是一个初出茅庐的js库，但是作者会把issues的维
 {% hint style="info" %}
 版本已经从传统的callback（v1.0.0）版本回调全面升级到新的Promise模式（v1.1.0），如有更好的建议请在issues发表你的意见
 {% endhint %}
+
+## 版本回顾
+
+> v1.1.0发布
+>
+> 1、代码进行模块化分离，每块组件单独抽离，统一入口配置，让每个模块的体积更小、更轻量
+>
+> 2、从传统的callback模式迁移到Promise模式，解决地狱回调的问题
+>
+> 3、更加简单的API接口操作，减少实例化过程（除indexedDB库需要实例化之外）
 
 
 
