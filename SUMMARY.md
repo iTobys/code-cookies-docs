@@ -13,7 +13,7 @@
 * [3. IndexedDB API](indexeddb-api/README.md)
   * [3.1 实例化数据库](indexeddb-api/newdb.md)
   * [3.2 打开数据库](indexeddb-api/opendb.md)
-  * [3.3 新增字段](indexeddb-api/setstore.md)
+  * [3.3 新增数据](indexeddb-api/setstore.md)
   * [3.4 获取指定字段](indexeddb-api/getstore.md)
   * [3.5 删除指定字段](indexeddb-api/removestorage.md)
   * [3.6 更新指定字段](indexeddb-api/putstore.md)
